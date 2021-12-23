@@ -9,6 +9,7 @@
      height: 100vh;
      margin: 50px;
      padding: 50px;
+     display: inherit;
  }
 
  header {
@@ -26,6 +27,7 @@
  h1 {
      text-align:left;
      padding: 0px;
+     margin: 50px;
  }
 
 
@@ -40,20 +42,103 @@ form {
     background-color: tomato;
     border: 10px double black;
     opacity: 70%;
-    width: 65%;
-    height: 70vh;
+    float: left;
+    width: 35%;
+    height: 130vh;
     font-family:'Josefin Slab', serif;
     font-size: 20pt;
     text-align: center;
     position: inherit;
+    margin: 50px;
     padding: 50px;
-   
-   
-    
-
-  
-
  } 
+
+ input[type=email]:focus-within{
+     width: 100%;
+     background-color: #bffd6d;
+     color: black;
+     border: 4px double black;
+     outline: none;
+ }
+
+ input[type=text]:focus-within{
+     width: 100%;
+     background-color: #bffd6d;
+     color: black;
+     border: 4px double black;
+     outline: none;
+ }
+
+ input[type=password]:focus-within{
+     width: 100%;
+     background-color: #bffd6d;
+     color: black;
+     border: 4px double black;
+     outline: none;
+ }
+
+ button[type=submit]:focus-within {
+     width: 50%;
+     background-color: rgb(252, 252, 84);
+     border: 4px double black;
+     transition: ease-in-out;
+ }
+
+ button[type=submit]{
+     background-color: turquoise;
+     font-family: 'Abril Fatface', cursive;
+     border: 4px double black;
+     color: black;
+     padding: 16px 32px;
+     text-decoration: none;
+     margin: 4px 2px;
+     cursor: pointer;
+     align-content: center;
+     top: 500px;
+ }
+
+ input[type=text] {
+     background-color: turquoise;
+     box-shadow: black;
+     border: 5px double black;
+     width: 150%;
+     height: 2rem;
+     font-family: 'Josefin Slab', serif;
+     font-weight:900;
+     margin: 10px;
+     transition: width 0.8s ease-in-out;
+     
+ }
+
+ input[type=email] {
+    background-color: turquoise;
+    box-shadow: black;
+    border: 5px double black;
+    width: 150%;
+    height: 2rem;
+    font-family: 'Josefin Slab', serif;
+    font-weight:900;
+    margin: 10px;
+    transition: width 0.8s ease-in-out;
+   
+ }
+ 
+ 
+
+
+ input[type=password] {
+    background-color: turquoise;
+    box-shadow: black;
+    border: 5px double black;
+    width: 150%;
+    height: 2rem;
+    font-family: 'Josefin Slab', serif;
+    font-weight:900;
+    margin: 10px;
+    transition: width 0.8s ease-in-out;
+    
+ }
+
 
  .div-zero {
     position: inherit;
@@ -115,6 +200,7 @@ form {
     width: 95%;
     height: 25vh;
     position: inherit;
+    margin: 40px;
 }
 
 .div-seven {
@@ -122,21 +208,67 @@ form {
     width: 95%;
     height: 25vh;
     position: inherit;
+    margin-bottom: 40px;
+    
+
     
 }
 
 .div-eight{
     float: right;
-    background-color: tomato;
+    background-color: turquoise;
     opacity: 70%;
     position: inherit;
     width: 350px;
-    height:500px;
+    height:1700px;
     align-self: center;
     border: 10px double black;
     margin: 50px;
     padding: 70px;
 }
+
+.div-nine {
+    width: 70%;
+    height: inherit;
+    margin: 10px 10px;
+    padding: 40px;
+}
+
+.div-ten {
+    width: 95%;
+    height: 25vh;
+    position: inherit;
+    margin: 40px;
+}
+
+.div-eleven {
+    width: 95%;
+    height: 25vh;
+    position: inherit;
+    margin: 40px;
+} 
+
+.div-twelve {
+    width: 95%;
+    height: 25vh;
+    position: inherit;
+    margin: 40px;
+}
+
+.div-thirteen {
+    width: 95%;
+    height: 25vh;
+    position: inherit;
+    margin: 40px;
+}
+
+.div-fourteen {
+    width: 95%;
+    height: 25vh;
+    position: inherit;
+    margin: 40px;
+}
+
 
 .imgDiv {
     width: 332px;
@@ -156,4 +288,39 @@ form {
 #sub {
     text-decoration-style: wavy;
     text-size-adjust: 50% ;
+}
+
+.rnbwfrt {
+    width: 332px;
+    height: 25vh;
+    position: inherit;
+    border: 10px double black;
+}
+
+.orange {
+    width: 332px;
+    height: 25vh;
+    position: inherit;
+    border: 10px double black;
+}
+
+.limes {
+    width: 332px;
+    height: 25vh;
+    position: inherit;
+    border: 10px double black;
+}
+
+.citrus {
+    width: 332px;
+    height: 25vh;
+    position: inherit;
+    border: 10px double black;
+}
+
+.tomato {
+    width: 332px;
+    height: 25vh;
+    position: inherit;
+    border: 10px double black; 
 }
