@@ -5,7 +5,10 @@
      background-size: cover;
      font-family: 'Abril Fatface',cursive;
      font-size: 30pt;
-     padding-inline-start: inherit;
+     width: 100%;
+     height: 100vh;
+     margin: 50px;
+     padding: 50px;
  }
 
  header {
@@ -16,26 +19,35 @@
      width: 100%;
      float: right;
      padding: 2rem 0;
+     margin: 50px;
 
  }
 
+ h1 {
+     text-align:left;
+     padding: 0px;
+ }
+
+
  h3 {
      font-family: 'Josefin Slab', serif;
+     font-weight: bold;
      font-size: 20pt;
+     margin: 50px;
  }
 
 form {
     background-color: tomato;
-    box-shadow: 5px, midnightblue;
     border: 10px double black;
     opacity: 70%;
-    width: 100%;
-    height: 50vh;
+    width: 65%;
+    height: 70vh;
     font-family:'Josefin Slab', serif;
     font-size: 20pt;
-    text-align: left;
-    margin: 80;
-    padding: 80;
+    text-align: center;
+    position: inherit;
+    padding: 50px;
+   
    
     
 
@@ -44,38 +56,104 @@ form {
  } 
 
  .div-zero {
-    position: relative;
+    position: inherit;
     width: 60%;
     align-self: auto;
+
     
  }
 
 
  footer {
-     float: inherit;
-     box-sizing: border-box;
+     float: left;
+     position: inherit;
+     margin: 15px;
+     width: inherit;
+  
  }
  
  .div-one {
-     margin: 40px;
+     margin: 20px;
      float: left;
      font-family: 'Abril Fatface',cursive;
+     position: inherit;
+     padding: 40px;
  }
 
  .div-two {
-     margin: 40px;
-     float: right;
+     margin: 20px;
+     float: left;
      font-family: 'Abril Fatface',cursive;
+     position: inherit;
+     padding: 40px;
  }
 
  .div-three {
-     margin: 40px;
+     margin: 20px;
      float: left;
      font-family:'Abril Fatface',cursive; 
+     position: inherit;
+     padding: 40px;
  }
 
  .div-four {
-     margin: 40px;
+     margin: 20px;
      float: left;
      font-family: 'Abril Fatface',cursive;
+     position: inherit;
+     padding: 40px;
  }
+
+ .div-five {
+     position: inherit;
+     top: 500px;
+     left: -300px;
+}
+
+.div-six {
+ 
+    width: 95%;
+    height: 25vh;
+    position: inherit;
+}
+
+.div-seven {
+    
+    width: 95%;
+    height: 25vh;
+    position: inherit;
+    
+}
+
+.div-eight{
+    float: right;
+    background-color: tomato;
+    opacity: 70%;
+    position: inherit;
+    width: 350px;
+    height:500px;
+    align-self: center;
+    border: 10px double black;
+    margin: 50px;
+    padding: 70px;
+}
+
+.imgDiv {
+    width: 332px;
+    height: 25vh;
+    position: inherit;
+    border: 10px double black;
+}
+
+.imgapple {
+    width: 332px;
+    height: 25vh;
+    position: inherit;
+    border: 10px double black;
+    
+}
+
+#sub {
+    text-decoration-style: wavy;
+    text-size-adjust: 50% ;
+}
