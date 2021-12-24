@@ -10,12 +10,19 @@
      margin: 50px;
      padding: 50px;
      display: inherit;
+     
+ }
+
+ body:hover {
+     cursor: pointer;
  }
 
  header {
 
      
      font-family: 'Josefin Slab', serif;
+     color: black;
+     font-weight: 900;
      text-align: right;
      width: 100%;
      float: right;
@@ -23,6 +30,8 @@
      margin: 50px;
 
  }
+
+
 
  h1 {
      text-align:left;
@@ -43,15 +52,28 @@ form {
     border: 10px double black;
     opacity: 70%;
     float: left;
-    width: 35%;
+    width: 40%;
     height: 130vh;
     font-family:'Josefin Slab', serif;
     font-size: 20pt;
     text-align: center;
     position: inherit;
-    margin: 50px;
+    margin: 20px;
     padding: 50px;
  } 
+
+ form input {
+     width: 100%;
+     min-width: 75px;
+     box-sizing: border-box;
+     align-content: center;
+     margin: .75rem 1rem;
+     padding: .75rem 1rem;
+     line-height: 1rem;
+     font-size: .75rem;
+     border: 4px double black ;
+     border-radius: 3px;
+ }
 
  input[type=email]:focus-within{
      width: 100%;
@@ -78,23 +100,25 @@ form {
  }
 
  button[type=submit]:focus-within {
-     width: 50%;
+     width: 100%;
      background-color: rgb(252, 252, 84);
      border: 4px double black;
+     border-radius: 3px;
      transition: ease-in-out;
  }
 
  button[type=submit]{
      background-color: turquoise;
      font-family: 'Abril Fatface', cursive;
-     border: 4px double black;
+     border: 6px double black;
      color: black;
-     padding: 16px 32px;
+     padding: .75rem 1;
      text-decoration: none;
-     margin: 4px 2px;
      cursor: pointer;
      align-content: center;
-     top: 500px;
+     min-width: 325px;
+     margin-top: 50px;
+     margin-left: 40px;
  }
 
  input[type=text] {
@@ -156,6 +180,14 @@ form {
      width: inherit;
   
  }
+
+ footer img {
+     margin: 0.5rem;
+ }
+
+ footer img:hover {
+     cursor: pointer;
+ }
  
  .div-one {
      margin: 20px;
@@ -163,6 +195,8 @@ form {
      font-family: 'Abril Fatface',cursive;
      position: inherit;
      padding: 40px;
+     box-sizing: border-box;
+     min-width: 300px;
  }
 
  .div-two {
@@ -170,6 +204,8 @@ form {
      float: left;
      font-family: 'Abril Fatface',cursive;
      position: inherit;
+     box-sizing: border-box;
+     min-width: 300px; 
      padding: 40px;
  }
 
@@ -178,6 +214,8 @@ form {
      float: left;
      font-family:'Abril Fatface',cursive; 
      position: inherit;
+     box-sizing: border-box;
+     min-width: 300px; 
      padding: 40px;
  }
 
@@ -186,6 +224,8 @@ form {
      float: left;
      font-family: 'Abril Fatface',cursive;
      position: inherit;
+     box-sizing: border-box;
+     min-width: 300px; 
      padding: 40px;
  }
 
@@ -228,10 +268,13 @@ form {
 }
 
 .div-nine {
-    width: 70%;
+    width: 75%;
     height: inherit;
     margin: 10px 10px;
     padding: 40px;
+    box-sizing: content-box;
+    min-width: 300px;
+   
 }
 
 .div-ten {
